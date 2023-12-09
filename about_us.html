@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--DEVELOPER: NUHA UDDIN, IS117-001, FALL 2023-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap 4 Page</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body background ="images/bluesolid.jpg">
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">Desi Eats</a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about_us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown">
+                            Cuisines 
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="pakistan.html">Pakistan</a>
+                            <a class="dropdown-item" href="bangladesh.html">Bangladesh</a>
+                            <a class="dropdown-item" href="india.html">India</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+    
+    <div class="aboutus">
+        <h2>About Us</h2>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi quis eleifend quam adipiscing vitae proin sagittis. Elit pellentesque habitant morbi tristique senectus. Nunc sed id semper risus in hendrerit gravida rutrum. In egestas erat imperdiet sed euismod nisi porta lorem. Cursus euismod quis viverra nibh cras pulvinar mattis nunc sed. Mus mauris vitae ultricies leo integer malesuada. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Urna id volutpat lacus laoreet non curabitur gravida arcu.</h5>
+        <h5>Iaculis urna id volutpat lacus laoreet non curabitur gravida. Ipsum suspendisse ultrices gravida dictum. Sit amet dictum sit amet. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Semper viverra nam libero justo laoreet sit amet. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras.</h5>
+    </div>
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Nuha Uddin, 2023 |<a href="terms.html">Terms Of Use</a>&nbsp;  |  <a href="privacy.html">Privacy Statement</a>&nbsp;</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+/*DEVELOPER: NUHA UDDIN, IS117-001, FALL 2023*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.intro{
+    color: skyblue;
+    text-align: center;
+     margin-top: 80px;
+}
+
+.homecenter{
+    color: skyblue;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.aboutus{
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.pakistan{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.bangladesh{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.india{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.firstimage,
+.secondimage,
+.thirdimage{
+    border: 1px solid green;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.fourthimage,
+.fifthimage,
+.sixthimage,
+.seventhimage,
+.eighthimage{
+    border: 1px solid green;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
